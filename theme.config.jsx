@@ -15,6 +15,11 @@ export default {
     toggleButton: true,
   },
   logo: <span>feel-nextra-docs</span>,
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Feel Nextra',
+    };
+  },
   project: {
     link: 'https://github.com/mnz8feel/feel-nextra-docs',
   },
